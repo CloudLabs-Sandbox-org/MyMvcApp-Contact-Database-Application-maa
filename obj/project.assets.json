@@ -4324,11 +4324,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
+      "projectUniqueName": "C:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp\\MyMvcApp.csproj",
       "projectName": "MyMvcApp",
-      "projectPath": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
+      "projectPath": "C:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp\\MyMvcApp.csproj",
       "packagesPath": "C:\\Users\\azureuser\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\obj\\",
+      "outputPath": "C:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\azureuser\\AppData\\Roaming\\NuGet\\NuGet.Config"

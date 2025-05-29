@@ -4,9 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMvcApp", "MyMvcApp.csproj", "{647000DC-3552-4171-8DBF-F0CB434C0447}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMvcApp.Tests", "MyMvcApp.Tests\MyMvcApp.Tests.csproj", "{658F8529-F690-4594-B1E7-D47DA36CF6AE}"
-EndProject
+EndProject 
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

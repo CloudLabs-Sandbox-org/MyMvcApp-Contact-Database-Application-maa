@@ -1,35 +1,35 @@
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.csproj.AssemblyReference.cache
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.csproj.CoreCompileInputs.cache
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.RazorAssemblyInfo.cache
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.RazorAssemblyInfo.cs
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.sourcelink.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\appsettings.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\MyMvcApp.staticwebassets.runtime.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\MyMvcApp.staticwebassets.endpoints.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\MyMvcApp.exe
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\MyMvcApp.deps.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\MyMvcApp.runtimeconfig.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\MyMvcApp.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\MyMvcApp.pdb
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\scopedcss\bundle\MyMvcApp.styles.css
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\scopedcss\projectbundle\MyMvcApp.bundle.scp.css
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\staticwebassets.build.json.cache
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.csproj.Up2Date
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\refint\MyMvcApp.dll
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.pdb
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\MyMvcApp.genruntimeconfig.cache
-C:\Users\azureuser\MyMvcApp-Contact-Database-Application-maa\obj\Debug\net8.0\ref\MyMvcApp.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\appsettings.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\MyMvcApp.staticwebassets.runtime.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\MyMvcApp.staticwebassets.endpoints.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\MyMvcApp.exe
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\MyMvcApp.deps.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\MyMvcApp.runtimeconfig.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\MyMvcApp.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\MyMvcApp.pdb
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.csproj.AssemblyReference.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.csproj.CoreCompileInputs.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.RazorAssemblyInfo.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.RazorAssemblyInfo.cs
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.sourcelink.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\scopedcss\bundle\MyMvcApp.styles.css
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\scopedcss\projectbundle\MyMvcApp.bundle.scp.css
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.csproj.Up2Date
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\refint\MyMvcApp.dll
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.pdb
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\MyMvcApp.genruntimeconfig.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp\obj\Debug\net8.0\ref\MyMvcApp.dll
