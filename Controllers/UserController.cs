@@ -6,7 +6,7 @@ namespace MyMvcApp.Controllers;
 
 public class UserController : Controller
 {
-    public static System.Collections.Generic.List<User> userlist = new System.Collections.Generic.List<User>();
+    public static List<User> userlist = new List<User>();
 
     // GET: User
     public ActionResult Index()

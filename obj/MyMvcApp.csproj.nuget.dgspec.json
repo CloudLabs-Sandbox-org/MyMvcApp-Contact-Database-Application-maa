@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp.csproj": {}
+    "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp.csproj": {
+    "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp.csproj",
+        "projectUniqueName": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
         "projectName": "MyMvcApp",
-        "projectPath": "C:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp.csproj",
+        "projectPath": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
         "packagesPath": "C:\\Users\\azureuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azureuser\\GitHub Copilot\\obj\\",
+        "outputPath": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\azureuser\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
