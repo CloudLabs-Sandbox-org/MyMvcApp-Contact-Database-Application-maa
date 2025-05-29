@@ -9,9 +9,18 @@ public class UserController : Controller
     public static List<User> userlist = new List<User>();
 
     // GET: User
-    public ActionResult Index()
+    public ActionResult Index(string? searchString = null)
     {
-        return View(userlist);
+        IEnumerable<User> users = userlist;
+        if (!string.IsNullOrEmpty(searchString))
+        {
+            users = users.Where(u =>
+                (!string.IsNullOrEmpty(u.Name) && u.Name.Contains(searchString, StringComparison.OrdinalIgnoreCase)) ||
+                (!string.IsNullOrEmpty(u.Email) && u.Email.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            );
+        }
+        ViewBag.SearchString = searchString;
+        return View(users);
     }
 
     // GET: User/Details/5
