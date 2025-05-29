@@ -6,7 +6,10 @@
             "value": "mymvcapp-demo"
         },
         "sku": {
-            "value": "F1"
+            "value": "B1"
+        },
+        "location": {
+            "value": "eastus"
         }
     }
 }
