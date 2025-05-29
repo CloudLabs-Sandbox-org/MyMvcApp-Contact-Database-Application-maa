@@ -6,39 +6,37 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 env:
   AZURE_WEBAPP_NAME: mymvcapp-demo    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: 'D:\a\MyMvcApp-Contact-Database-Application\MyMvcApp-Contact-Database-Application\bin\Release\net8.0\MyMvcApp'
+  AZURE_WEBAPP_PACKAGE_PATH: '${{ github.workspace }}'      # Set this to the path to your web app project
   DOTNET_VERSION: '8.0.x'
-  DOTNET_ROOT: 'C:\Program Files\dotnet'
 
-jobs:
-  build:
+jobs:  build:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v3      - name: Set up .NET Core
+      - uses: actions/checkout@v3
+
+      - name: Set up .NET Core
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
-
-      - name: Verify .NET installation
+      
+      - name: dotnet build and publish
         run: |
-          dotnet --info
-          echo "DOTNET_ROOT=${{ env.DOTNET_ROOT }}"
-
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
-
-      - name: dotnet publish
-        run: dotnet publish -c Release --no-build --output ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          dotnet restore
+          dotnet build --configuration Release
+          dotnet publish -c Release --property:PublishDir='${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: .net-app
-          path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-
+          path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp
   deploy:
     runs-on: windows-latest
     needs: build
@@ -52,10 +50,19 @@ jobs:
         with:
           name: .net-app
 
+      - name: Azure Login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@v3
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
+
+      - name: Azure Logout
+        run: az logout
