@@ -11,27 +11,24 @@ permissions:
   contents: read
 
 env:
-  AZURE_WEBAPP_NAME: mymvcapp-demo    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '${{ github.workspace }}'      # Set this to the path to your web app project
+  AZURE_WEBAPP_NAME: mymvcapp-demo
+  AZURE_WEBAPP_PACKAGE_PATH: '${{ github.workspace }}'
   DOTNET_VERSION: '8.0.x'
 
 jobs:
   build:
     runs-on: windows-latest
-
     steps:
-      - name: Set up .NET Core
       - uses: actions/checkout@v3
-      - uses: actions/setup-dotnet@v3
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
-      
       - name: dotnet build and publish
         run: |
           dotnet restore
           dotnet build --configuration Release
           dotnet publish -c Release -o publish
-
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
@@ -43,25 +40,22 @@ jobs:
     environment:
       name: 'production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
         with:
           name: .net-app
-
       - name: Azure Login
         uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}      
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
-          package: ${{ github.workspace }}
-
+          package: ${{ github.workspace }}/publish
       - name: Azure Logout
         run: az logout
