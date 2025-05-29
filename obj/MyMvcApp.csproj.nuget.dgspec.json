@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj": {}
+    "C:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj": {
+    "C:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
+        "projectUniqueName": "C:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
         "projectName": "MyMvcApp",
-        "projectPath": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
+        "projectPath": "C:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
         "packagesPath": "C:\\Users\\azureuser\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\obj\\",
+        "outputPath": "C:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\azureuser\\AppData\\Roaming\\NuGet\\NuGet.Config"

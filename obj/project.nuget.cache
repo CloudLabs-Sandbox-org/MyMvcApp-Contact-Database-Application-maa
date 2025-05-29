@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ncTbJh2A9eY=",
+  "dgSpecHash": "/Z+8iDNEJHc=",
   "success": true,
-  "projectFilePath": "c:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
+  "projectFilePath": "C:\\Users\\azureuser\\MyMvcApp-Contact-Database-Application-maa\\MyMvcApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azureuser\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\azureuser\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
