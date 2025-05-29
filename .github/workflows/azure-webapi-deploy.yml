@@ -45,6 +45,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: .net-app
+          path: publish
       - name: Azure Login
         uses: azure/login@v2
         with:
