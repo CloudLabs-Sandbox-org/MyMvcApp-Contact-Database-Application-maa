@@ -3,25 +3,29 @@ name: Build and deploy ASP.Net Core app to Azure Web App
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 env:
   AZURE_WEBAPP_NAME: mymvcapp-demo    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: 'D:\a\MyMvcApp-Contact-Database-Application\MyMvcApp-Contact-Database-Application\bin\Release\net8.0\MyMvcApp'
   DOTNET_VERSION: '8.0.x'
+  DOTNET_ROOT: 'C:\Program Files\dotnet'
 
 jobs:
   build:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Set up .NET Core
+      - uses: actions/checkout@v3      - name: Set up .NET Core
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Verify .NET installation
+        run: |
+          dotnet --info
+          echo "DOTNET_ROOT=${{ env.DOTNET_ROOT }}"
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
