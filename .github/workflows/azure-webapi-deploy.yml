@@ -15,7 +15,8 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: '${{ github.workspace }}'      # Set this to the path to your web app project
   DOTNET_VERSION: '8.0.x'
 
-jobs:  build:
+jobs:
+  build:
     runs-on: windows-latest
 
     steps:
